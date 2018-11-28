@@ -1,0 +1,20 @@
+{
+  "name": "db",
+  "version": "1.0.0",
+  "description": "An example to use the audio API in the browser",
+  "author": "Fernando M Tenorio <dotenorio@gmail.com> (https://dotenorio.com)",
+  "license": "MIT",
+  "scripts": {
+    "start": "lite-server",
+    "test": "standard --fix"
+  },
+  "devDependencies": {
+    "lite-server": "^2.4.0",
+    "standard": "^12.0.1"
+  },
+  "standard": {
+    "globals": [
+      "AudioContext"
+    ]
+  }
+}
